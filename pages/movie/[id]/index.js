@@ -1,17 +1,12 @@
-// import {useRouter} from 'next/router'
-// import Link from 'next/link'
+import Link from 'next/link'
 
-// const movie = ({movie}) => {
-//   // const router = useRouter()
-//   // const {id} = router.query
-//   return (
-//     <>
-//       <h1>{movie.title}</h1>
-//       <p>{movie.body}</p>
-//       <Link href="/">Go back</Link>
-//     </>
-//   )
-// }
+const movie = ({movie}) => {
+  return (
+    <>
+      <Link href="/">Go back</Link>
+    </>
+  )
+}
 
 // export async function getStaticProps(context) {
 //   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`)
@@ -36,4 +31,4 @@
 //   }
 // }
 
-// export default post
+export default movie
