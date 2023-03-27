@@ -1,0 +1,30 @@
+.nav ul {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  font-size: .8rem;
+}
+
+.nav li {
+  display: inline-block;
+}
+.nav li+li {
+  margin-left: 1rem;
+}
+
+.first-nav, .second-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.second-nav {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 100;
+}
+
+.second-nav li {
+  padding-right: 2rem;
+  width: fit-content;
+}

@@ -86,18 +86,31 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: IBM Plex Sans,sans-serif;
+  color: #fff;
+  background: linear-gradient(90deg,#000 15%,#224065);
+  padding: 1rem;
+  min-height: 100vh;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h3, p {
+  font-weight: 100;
+}
+
+img {
+  border-radius: 1%;
+  width: 100%;
+  height: auto;
+  transition: all .3s ease-in-out;
+}
+
+#__next {
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: dark) {
