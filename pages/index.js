@@ -21,3 +21,6 @@ export default function Home() {
       </>
   )
 }
+
+
+// TODO: fix movie details, olika genrer/kategorier (generell komponent), städa i koden
