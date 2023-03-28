@@ -7,7 +7,7 @@ const MovieItem = ({ title, id, poster_path, release_date, vote_average }) => {
   const imagePath = 'https://image.tmdb.org/t/p/original'
       return (
         <article>
-          <Link href={`/movies/${id}`}>
+          <Link href={`/movies/movie/${id}`}>
             <Image 
             src={imagePath + poster_path}
             width={500}
