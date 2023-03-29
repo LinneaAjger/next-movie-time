@@ -9,6 +9,12 @@
 .title h1 {
   font-size: 3rem;
 }
+
+.title h1:hover {
+  text-shadow: 0px 0px 5px rgb(21, 0, 255);
+  filter: drop-shadow(0px 1px 3px   rgb(255, 0, 0));
+}
+
 @media (min-width: 768px) {
   .title h1 {
     font-size: 4.5rem;
